@@ -1,0 +1,646 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    width: 98.8%;
+    height: 100vh;
+    margin: 10px;
+}
+
+.line1 {
+    border: 1px solid;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.line2 {
+    border: 1px solid;
+    width: 100%;
+    height: 33.1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line3 {
+    border: 1px solid;
+    width: 100%;
+    height: 33.1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red {
+    border: 1px solid;
+    width: 33.33%;
+    height: 40vh;
+    background-color: red;
+}
+
+.blue {
+    border: 1px solid;
+    width: 33.33%;
+    height: 40vh;
+    background-color: blue;
+}
+
+.yellow {
+    border: 1px solid;
+    width: 33.33%;
+    height: 40vh;
+    background-color: yellow;
+}
+
+.green {
+    border: 1px solid;
+    width: 33.33%;
+    height: 40vh;
+    background-color: green;
+}
+
+.runpath1 {
+    border: 1px solid;
+    width: 33.33%;
+    height: 33.1vh;
+    display: flex;
+}
+
+.s1 {
+    border: 1px solid;
+    width: 100%;
+    height: 6.4vh;
+}
+
+#gr {
+    background-color: green;
+}
+
+
+
+
+
+.runpath2 {
+    border: 1px solid;
+    width: 33.3%;
+    height: 33vh;
+}
+
+.runpath2-1 {
+    width: 100%;
+    height: 33%;
+    border: 1px solid;
+    display: flex;
+}
+
+.path2 {
+    border: 1px solid;
+    width: 16.5%;
+}
+
+.runpath2-2 {
+    width: 100%;
+    height: 33%;
+    border: 1px solid;
+    display: flex;
+}
+
+.runpath2-3 {
+    width: 100%;
+    height: 33.1%;
+    border: 1px solid;
+    display: flex;
+}
+
+
+
+
+.runpath3 {
+    border: 1px solid;
+    width: 33.33%;
+    height: 33.1vh;
+    display: flex;
+}
+
+#bl {
+    background-color: blue;
+}
+
+
+
+
+
+.runpath4 {
+    border: 1px solid;
+    width: 33.3%;
+    height: 33.1vh;
+}
+
+.innerbox {
+    width: 80%;
+    height: 28vh;
+    background-color: #fff;
+    position: relative;
+    left: 10%;
+    top: 14%;
+
+}
+
+.no1 {
+    width: 15%;
+    background-color: green;
+    height: 50px;
+    position: relative;
+    left: 15%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.no2 {
+    width: 15%;
+    background-color: green;
+    height: 50px;
+    position: relative;
+    left: 65%;
+    top: -12%;
+    border-radius: 50%;
+}
+
+.no3 {
+    width: 15%;
+    background-color: green;
+    height: 50px;
+    position: relative;
+    left: 65%;
+    top: 15%;
+    border-radius: 50%;
+}
+
+.no4 {
+    width: 15%;
+    background-color: green;
+    height: 50px;
+    position: relative;
+    left: 15%;
+    top: -10%;
+    border-radius: 50%;
+}
+
+.red .no1 {
+    background-color: red;
+}
+
+.red .no2 {
+    background-color: red;
+}
+
+.red .no3 {
+    background-color: red;
+}
+
+.red .no4 {
+    background-color: red;
+}
+
+.blue .no1 {
+    background-color: blue;
+}
+
+.blue .no2 {
+    background-color: blue;
+}
+
+.blue .no3 {
+    background-color: blue;
+}
+
+.blue .no4 {
+    background-color: blue;
+}
+
+.yellow .no1 {
+    background-color: yellow;
+}
+
+.yellow .no2 {
+    background-color: yellow;
+}
+
+.yellow .no3 {
+    background-color: yellow;
+}
+
+.yellow .no4 {
+    background-color: yellow;
+}
+
+#yl {
+    background-color: yellow;
+}
+
+#rd {
+    background-color: red;
+}
+
+
+
+
+
+.path1-1 {
+    border: 1px solid;
+    width: 33.1%;
+    height: 40vh;
+}
+
+.path1-2 {
+    border: 1px solid;
+    width: 33.1%;
+    height: 40vh;
+}
+
+.path1-3 {
+    border: 1px solid;
+    width: 33.1%;
+    height: 40vh;
+}
+
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-right: 240px solid transparent;
+    border-left: 240px solid transparent;
+    border-top: 120px solid green;
+}
+
+.arrow-right {
+    position: relative;
+    left: -1.8%;
+    bottom: 197%;
+    width: 0;
+    height: 0;
+    border-top: 120px solid transparent;
+    border-bottom: 120px solid transparent;
+    border-left: 245px solid red;
+}
+
+.arrow-left {
+    position: relative;
+    left: 51%;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border-top: 125px solid transparent;
+    border-bottom: 120px solid transparent;
+    border-right: 245px solid yellow;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-right: 240px solid transparent;
+    border-left: 240px solid transparent;
+    border-bottom: 120px solid blue;
+    margin-top: 10px;
+}
+
+h3 {
+    color: greenyellow;
+    position: absolute;
+    left: 38%;
+    font-size: small;
+    /* text-align: center; */
+}
+
+.red h3 {
+    color: red;
+}
+
+.blue h3 {
+    color: blue;
+}
+
+.yellow h3 {
+    color: yellow;
+}
+
+.path2 i {
+    font-size: 45px;
+    margin: 18px;
+}
+
+.s1 i {
+    font-size: 35px;
+    margin-left: 48px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:440px) {
+
+    .line2 {
+        height: 20%;
+
+    }
+
+    .path2 i {
+        font-size: 15px;
+        margin: 0px;
+        margin-top: 13px;
+    }
+
+    .red h3 {
+        color: red;
+        margin-left: -20px;
+        font-size: 10px;
+
+    }
+
+    .blue h3 {
+        color: blue;
+        margin-left: -20px;
+        font-size: 10px;
+
+    }
+
+    .yellow h3 {
+        color: yellow;
+        margin-left: -20px;
+        font-size: 10px;
+
+    }
+
+    .green h3 {
+        color: green;
+        margin-left: -20px;
+        font-size: 10px;
+
+    }
+
+    .s1 i {
+        position: relative;
+        font-size: 15px;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+
+    .runpath2-1 {
+        height: 20%;
+        border: 1px solid;
+    }
+
+    .path2 {
+        border: 1px solid;
+        width: 40%;
+    }
+
+    .runpath2-2 {
+        height: 20%;
+        border: 1px solid;
+    }
+
+    .runpath2-3 {
+        height: 20%;
+        border: 1px solid;
+
+    }
+
+    .arrow-up {
+        border-right: 70px solid transparent;
+        border-left: 70px solid transparent;
+        border-top: 80px solid green;
+    }
+
+    .arrow-right {
+        position: relative;
+        bottom: 200%;
+        border-top: 80px solid transparent;
+        border-bottom: 65px solid transparent;
+        border-left: 65px solid red;
+    }
+
+    .arrow-left {
+        position: relative;
+        left: 55%;
+        bottom: 95%;
+        border-top: 70px solid transparent;
+        border-bottom: 70px solid transparent;
+        border-right: 60px solid yellow;
+    }
+
+    .arrow-down {
+        border-right: 70px solid transparent;
+        border-left: 70px solid transparent;
+        border-bottom: 60px solid blue;
+        margin-top: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+/* 
+
+@media screen and (max-width:768px and min-width:1100) {
+
+    .line2 {
+        height: 20%;
+
+    }
+
+
+    .red h3 {
+        color: red;
+        margin-left: -10px;
+        font-size: 10px;
+
+    }
+
+    .blue h3 {
+        color: blue;
+        margin-left: -10px;
+        font-size: 10px;
+
+    }
+
+    .yellow h3 {
+        color: yellow;
+        margin-left: -10px;
+        font-size: 10px;
+
+    }
+
+    .green h3 {
+        color: green;
+        margin-left: -10px;
+        font-size: 10px;
+
+    }
+    
+    .path2 i {
+        font-size: 20px;
+        margin: 0px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+
+    .s1 i {
+        position: relative;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .runpath2-1 {
+        height: 20%;
+        border: 1px solid;
+    }
+
+    .path2 {
+        border: 1px solid;
+        width: 40%;
+    }
+
+    .runpath2-2 {
+        height: 20%;
+        border: 1px solid;
+    }
+
+    .runpath2-3 {
+        height: 20%;
+        border: 1px solid;
+
+    }
+
+    .arrow-up {
+        border-right: 110px solid transparent;
+        border-left: 110px solid transparent;
+        border-top: 80px solid green;
+    }
+
+    .arrow-right {
+        position: relative;
+        bottom: 205%;
+        border-top: 80px solid transparent;
+        border-bottom: 65px solid transparent;
+        border-left: 110px solid red;
+        margin-left: -8px;
+    }
+
+    .arrow-left {
+        position: relative;
+        left: 55%;
+        bottom: 98%;
+        border-top: 75px solid transparent;
+        border-bottom: 70px solid transparent;
+        border-right: 110px solid yellow;
+    }
+
+    .arrow-down {
+        border-right: 110px solid transparent;
+        border-left: 110px solid transparent;
+        border-bottom: 60px solid blue;
+        margin-top: 0px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:1100px) {
+
+    .line2 {
+        height: 20%;
+
+    }
+
+
+
+    
+    .path2 i {
+        font-size: 30px;
+        margin: 0px;
+        margin-top: 9px;
+        margin-left: 10px;
+    }
+
+    .s1 i {
+        position: relative;
+        font-size: 30px;
+        margin: 0px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .runpath2-1 {
+        height: 20%;
+        border: 1px solid;
+    }
+
+    .path2 {
+        border: 1px solid;
+        width: 40%;
+    }
+
+    .runpath2-2 {
+        height: 20%;
+        border: 1px solid;
+    }
+
+    .runpath2-3 {
+        height: 20%;
+        border: 1px solid;
+
+    }
+
+    .arrow-up {
+        border-right: 210px solid transparent;
+        border-left: 210px solid transparent;
+        border-top: 80px solid green;
+    }
+
+    .arrow-right {
+        position: relative;
+        bottom: 205%;
+        border-top: 80px solid transparent;
+        border-bottom: 65px solid transparent;
+        border-left: 210px solid red;
+        margin-left: 10px;
+    }
+
+    .arrow-left {
+        position: relative;
+        left: 50%;
+        bottom: 98%;
+        border-top: 75px solid transparent;
+        border-bottom: 70px solid transparent;
+        border-right: 210px solid yellow;
+    }
+
+    .arrow-down {
+        border-right: 210px solid transparent;
+        border-left: 210px solid transparent;
+        border-bottom: 60px solid blue;
+        margin-top: 0px;
+    }
+} */
